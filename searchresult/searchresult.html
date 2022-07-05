@@ -38,7 +38,7 @@
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small ">
             <li>
               <div class="dropdown-center">
-                <a href="#" class="nav-link text-secondary dropdown-toggle me-2" type="button" id="products"
+                <a href="" class="nav-link text-secondary dropdown-toggle me-2" type="button" id="products"
                   data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                 <ul class="dropdown-menu dropdown-menu-center mt-1 drop_item " aria-labelledby="dropdownCenterBtn">
                   <div class="container justify-content-between">
@@ -46,7 +46,7 @@
                       <div class="row justify-content-between px-3">
                         <div class="col-6 col-md-3 mb-3">
                           <ul class="nav flex-column dropitem">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Laptop</a></li>
+                            <li class="nav-item mb-2"><a href="../products/laptop.html" class="nav-link p-0">Laptop</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Camera</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Keyboard</a></li>
                             <li class="nav-item mb-2 "><a href="#" class="nav-link d-flex p-0">SmartWatch</a></li>
@@ -181,171 +181,30 @@
   <section class="padding-y">
     <div class="container-md  mt-5">
       <header class="section-heading">
-        <h3 class="section-title text-center fw-bold  mt-5 label">All Products</h3>
+        <!-- <button class="bg-label btn mt-2"><i class="fa-solid fa-circle-arrow-left"></i></button> -->
+        <h3 class="section-title text-center fw-bold label mt-5 ">Result Search</h3>
         <hr class="divider">
       </header>
 
       <div class="row py-3 mt-5">
+        <h5 class="mx-auto text-muted">tidak ada data yang dicari...</h5>
+    </div> <!-- row end.// -->
+    
+  </div> <!-- container end.// -->
+</section>
+<!-- END CONTENT   -->
 
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="px-2 py-2 ">
-            <span class="topbar"> <span class="badge mt-2 mx-2 bg-success position-absolute ">New</span> </span>
-          <figure class="card-product-grid border-label rounded-2 px-2 py-2 justify-content-center mx-auto text-center">
-            <a href="#" class="img-wrap rounded bg-gray-light">
-              <img height="180" width="200" class="mix-blend-multiply" src="../assets/img/ip11promax-removebg-preview.png">
-            </a>
-            <figcaption class="pt-2  px-2 py-2 rounded-2 bg-light text-start ">
-              <a href="#" class="float-end  btn btn-light btn-icon bg-label"> <i class="fa fa-heart"></i> </a>
-              <strong class="price label">$29.95</strong> <!-- price.// -->
-              <small class="price"> <del> $29.95 </del></small> <!-- price.// --> <br>
-              <small class="text-muted">Iphone 11 Pro Max</small> <br>
-              <small class="text-muted">Brand: Apple</small> <br>
-              <small class="gray">Cateogory: Phone</small>
-              <div class="stars float-end">
-                <span class="fa fa-star star-active"></span>
-                <small>4.3</small>
-              </div>
-              <hr>
-              <div class="justify-content-center mx-auto text-center">
-              <!-- <button class="btn btn-sm bg-outline-label "><small>Buy now</small></button> -->
-              <a href=""class="btn btn-sm bg-label w-50 me-1 justify-content-center showModalBuy" data-bs-target="#buyModal"  data-id="<?= $data['product_id']; ?>" type="button" data-bs-toggle="modal"><small>add to cart</small></a>
-              <a href=""class="btn btn-sm bg-label w-30"><small>detail</small></a>
-            </div>
-            </figcaption>
-          </figure>
-        </div>
-        </div> <!-- col end.// -->
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="px-2 py-2 ">
-            <span class="topbar"> <span class="badge mt-2 mx-2 bg-success position-absolute ">New</span> </span>
-          <figure class="card-product-grid border-label rounded-2 px-2 py-2 justify-content-center mx-auto text-center">
-            <a href="#" class="img-wrap rounded bg-gray-light">
-              <img height="180" width="200" class="mix-blend-multiply" src="../assets/img/realme-narzo-50-5G.png">
-            </a>
-            <figcaption class="pt-2  px-2 py-2 rounded-2 bg-light text-start ">
-              <a href="#" class="float-end  btn btn-light btn-icon bg-label"> <i class="fa fa-heart"></i> </a>
-              <strong class="price label">$29.95</strong> <!-- price.// -->
-              <small class="price"> <del> $29.95 </del></small> <!-- price.// --> <br>
-              <small class="text-muted">Realme Narzo 50 5G</small> <br>
-              <small class="text-muted">Brand: Realme</small> <br>
-              <small class="gray">Cateogory: Phone</small>
-              <div class="stars float-end">
-                <span class="fa fa-star star-active"></span>
-                <small>4.3</small>
-              </div>
-              <hr>
-              <div class="justify-content-center mx-auto text-center">
-              <!-- <button class="btn btn-sm bg-outline-label "><small>Buy now</small></button> -->
-              <a href=""class="btn btn-sm bg-label w-50 me-1 justify-content-center showModalBuy" data-bs-target="#buyModal"  data-id="<?= $data['product_id']; ?>" type="button" data-bs-toggle="modal"><small>add to cart</small></a>
-              <a href=""class="btn btn-sm bg-label w-30"><small>detail</small></a>
-            </div>
-            </figcaption>
-          </figure>
-        </div>
-        </div> <!-- col end.// -->
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="px-2 py-2 ">
-            <span class="topbar"> <span class="badge mt-2 mx-2 bg-success position-absolute ">New</span> </span>
-          <figure class="card-product-grid border-label rounded-2 px-2 py-2 justify-content-center mx-auto text-center">
-            <a href="#" class="img-wrap rounded bg-gray-light">
-              <img height="180" width="270" class="mix-blend-multiply" src="../assets/img/macbookm1pro-removebg-preview.png">
-            </a>
-            <figcaption class="pt-2  px-2 py-2 rounded-2 bg-light text-start ">
-              <a href="#" class="float-end  btn btn-light btn-icon bg-label"> <i class="fa fa-heart"></i> </a>
-              <strong class="price label">$29.95</strong> <!-- price.// -->
-              <small class="price"> <del> $29.95 </del></small> <!-- price.// --> <br>
-              <small class="text-muted">Macbook Pro M1</small> <br>
-              <small class="text-muted">Brand: Apple</small> <br>
-              <small class="gray">Cateogory: Laptop</small>
-              <div class="stars float-end">
-                <span class="fa fa-star star-active"></span>
-                <small>4.3</small>
-              </div>
-              <hr>
-              <div class="justify-content-center mx-auto text-center">
-              <!-- <button class="btn btn-sm bg-outline-label "><small>Buy now</small></button> -->
-              <a href=""class="btn btn-sm bg-label w-50 me-1 justify-content-center showModalBuy" data-bs-target="#buyModal"  data-id="<?= $data['product_id']; ?>" type="button" data-bs-toggle="modal"><small>add to cart</small></a>
-              <a href=""class="btn btn-sm bg-label w-30"><small>detail</small></a>
-            </div>
-            </figcaption>
-          </figure>
-        </div>
-        </div> <!-- col end.// -->
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="px-2 py-2 ">
-            <span class="topbar"> <span class="badge mt-2 mx-2 bg-success position-absolute ">New</span> </span>
-          <figure class="card-product-grid border-label rounded-2 px-2 py-2 justify-content-center mx-auto text-center">
-            <a href="#" class="img-wrap rounded bg-gray-light">
-              <img height="180" width="200" class="mix-blend-multiply" src="../assets/img/earphone-corsair-voidrgbeliteusb.webp">
-            </a>
-            <figcaption class="pt-2  px-2 py-2 rounded-2 bg-light text-start ">
-              <a href="#" class="float-end  btn btn-light btn-icon bg-label"> <i class="fa fa-heart"></i> </a>
-              <strong class="price label">$29.95</strong> <!-- price.// -->
-              <small class="price"> <del> $29.95 </del></small> <!-- price.// --> <br>
-              <small class="text-muted">Corsair Void Rgb Elite Usb</small> <br>
-              <small class="text-muted">Brand: Corsair</small> <br>
-              <small class="gray">Cateogory: Earphone</small>
-              <div class="stars float-end">
-                <span class="fa fa-star star-active"></span>
-                <small>4.3</small>
-              </div>
-              <hr>
-              <div class="justify-content-center mx-auto text-center">
-              <!-- <button class="btn btn-sm bg-outline-label "><small>Buy now</small></button> -->
-              <a href=""class="btn btn-sm bg-label w-50 me-1 justify-content-center showModalBuy" data-bs-target="#buyModal"  data-id="<?= $data['product_id']; ?>" type="button" data-bs-toggle="modal"><small>add to cart</small></a>
-              <a href=""class="btn btn-sm bg-label w-30"><small>detail</small></a>
-            </div>
-            </figcaption>
-          </figure>
-        </div>
-        </div> <!-- col end.// -->
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="px-2 py-2 ">
-            <span class="topbar"> <span class="badge mt-2 mx-2 bg-success position-absolute ">New</span> </span>
-          <figure class="card-product-grid border-label rounded-2 px-2 py-2 justify-content-center mx-auto text-center">
-            <a href="#" class="img-wrap rounded bg-gray-light">
-              <img height="180" width="200" class="mix-blend-multiply" src="../assets/img/camera-canon-canoneos5d.jpg">
-            </a>
-            <figcaption class="pt-2  px-2 py-2 rounded-2 bg-light text-start ">
-              <a href="#" class="float-end  btn btn-light btn-icon bg-label"> <i class="fa fa-heart"></i> </a>
-              <strong class="price label">$29.95</strong> <!-- price.// -->
-              <small class="price"> <del> $29.95 </del></small> <!-- price.// --> <br>
-              <small class="text-muted">Canon Eos 5D</small> <br>
-              <small class="text-muted">Brand: Canon</small> <br>
-              <small class="gray">Cateogory: Camera</small>
-              <div class="stars float-end">
-                <span class="fa fa-star star-active"></span>
-                <small>4.3</small>
-              </div>
-              <hr>
-              <div class="justify-content-center mx-auto text-center">
-              <!-- <button class="btn btn-sm bg-outline-label "><small>Buy now</small></button> -->
-              <a href=""class="btn btn-sm bg-label w-50 me-1 justify-content-center showModalBuy" data-bs-target="#buyModal"  data-id="<?= $data['product_id']; ?>" type="button" data-bs-toggle="modal"><small>add to cart</small></a>
-              <a href=""class="btn btn-sm bg-label w-30"><small>detail</small></a>
-            </div>
-            </figcaption>
-          </figure>
-        </div>
-        </div> <!-- col end.// -->
-        <div class="col-lg-3 col-md-6 col-sm-6">
-
-      </div> <!-- row end.// -->
-
-    </div> <!-- container end.// -->
-  </section>
-  <!-- END CONTENT   -->
-
-  <!-- FOOTER  -->
-  <div class="container-lg footer ">
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top">
-      <div class="col mb-3">
-        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-          <h2>TokoSedia</h2>
-        </a>
+<!-- FOOTER  -->
+<div class="container-lg footer ">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+        <h2>TokoSedia</h2>
+      </a>
         <p class="text-muted">&copy; 2022</p>
       </div>
-
-
+      
+      
       <div class="col">
         <h5 class="fw-bold">Home</h5>
         <ul class="nav flex-column">
@@ -357,27 +216,27 @@
           <li class="nav-item mb-2"><a href="#section-brands" class="nav-link p-0 text-muted">Brands</a></li>
         </ul>
       </div>
-
+      
       <div class="col">
         <h5 class="fw-bold">Link</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="../about-us.html" class="nav-link p-0 text-muted">About Us</a></li>
         </ul>
       </div>
-
-
+      
+      
       <div class="col">
         <h5 class="fw-bold">Contact</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
-              Tasikmalaya, Jawa Barat
-            </a></li>
+            Tasikmalaya, Jawa Barat
+          </a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">tokosedia@gmail.com</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">085123123112</a></li>
         </ul>
       </div>
     </footer>
-
+    
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
       <p>&copy; 2022 Tokosedia, Inc. All rights reserved.</p>
       <ul class="list-unstyled d-flex">
